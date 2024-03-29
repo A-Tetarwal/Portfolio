@@ -18,6 +18,9 @@ html{
   }
   
   /* CSS for navigation links */
+  nav{
+    width: 500px;
+  }
   nav a {
     background-color: #faf0e6;
     color: #1a1a1b;
@@ -45,7 +48,7 @@ html{
     background-color: #faf0e6;
     color: #1a1a1b;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 30.05%;
+    width: 500px;
     padding: 4px;
     border-radius: 4px;
   }
