@@ -45,9 +45,84 @@ html{
   }
   
   /* CSS for About section */
-  #p1 pre {
+  #p1{
+    display: grid;
+    width: 400px;
+    background-color: #212122;
+    margin: 4px;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  #p2{
+    display: grid;
+    width: 400px;
+    background-color: #212122;
+    margin: 4px;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  #p3{
+    display: grid;
+    width: 400px;
+    background-color: #212122;
+    margin: 4px;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  #p4{
+    display: grid;
+    width: 400px;
+    background-color: #212122;
+    margin: 4px;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  main pre {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  main small{
+    color: gray;
+  }
+
+  .preA{
+    text-decoration: none;
+    color: #faf0e6;
+  }
+
+  .button{
+    text-decoration: none;
+    color: #faf0e6;
+  }
+
+  button{
+    background-color: #272729;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    margin-top: 15px;
+  }
+
+  button:hover{
+    border: 0.01px solid white;
+  }
+
+  /* for icon */
+  i{
+    background-color: #1a1a1b;
   }
   
   /* CSS for footer */
