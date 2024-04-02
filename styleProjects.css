@@ -44,30 +44,25 @@ html{
     font-size: 200%;
   }
   
-  /* CSS for About section */
-  #p1{
-    display: grid;
+  /* CSS for main section */
+  #p1, #p2, #p3, #p4{
+    display: table;
     width: 400px;
-    background-color: #212122;
+    background-color: #262628;
     margin: 4px;
     padding: 4px;
-    border: none;
-    border-radius: 5px;
+    /* border: 0.01px solid gray; */
+    border-radius: 10px;
     margin-bottom: 10px;
   }
 
-  #p2{
-    display: grid;
-    width: 400px;
-    background-color: #212122;
-    margin: 4px;
-    padding: 4px;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 10px;
+  main code{
+    color: rgb(127, 255, 146);
+    margin-left: 10px;
+    margin-top: 5px;
   }
 
-  #p3{
+  /* #p2{
     display: grid;
     width: 400px;
     background-color: #212122;
@@ -76,9 +71,9 @@ html{
     border: none;
     border-radius: 5px;
     margin-bottom: 10px;
-  }
+  } */
 
-  #p4{
+  /* #p3{
     display: grid;
     width: 400px;
     background-color: #212122;
@@ -87,7 +82,18 @@ html{
     border: none;
     border-radius: 5px;
     margin-bottom: 10px;
-  }
+  } */
+
+  /* #p4{
+    display: grid;
+    width: 400px;
+    background-color: #212122;
+    margin: 4px;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  } */
 
   main pre {
     color: white;
@@ -97,6 +103,15 @@ html{
   main small{
     color: gray;
   }
+
+  main div pre{
+    margin-left: 10px;
+  }
+
+  /* main div:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  } */
 
   .preA{
     text-decoration: none;
@@ -109,7 +124,7 @@ html{
   }
 
   button{
-    background-color: #272729;
+    background-color: #2f2f32;
     border: none;
     border-radius: 5px;
     padding: 4px;
@@ -117,12 +132,12 @@ html{
   }
 
   button:hover{
-    border: 0.01px solid white;
+    border: 0.01px solid whitesmoke;
   }
 
   /* for icon */
   i{
-    background-color: #1a1a1b;
+    background-color: #272729;
   }
   
   /* CSS for footer */
